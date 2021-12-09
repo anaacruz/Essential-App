@@ -235,6 +235,7 @@
 		2ECC103F276161690033EE1E /* XCTestCase+MemoryLeakTracking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "XCTestCase+MemoryLeakTracking.swift"; sourceTree = "<group>"; };
 		2ECC1061276168700033EE1E /* FeedImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageView.swift; sourceTree = "<group>"; };
 		2ECC10652761F3220033EE1E /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		2ECC106C2761FAA40033EE1E /* FeedLoaderWithFallbackCompositeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FeedLoaderWithFallbackCompositeTests.swift; path = EssentialAppTests/FeedLoaderWithFallbackCompositeTests.swift; sourceTree = "<group>"; };
 		2ECEFC75274DC2A000A2EFA4 /* EssentialFeedCacheIntegrationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialFeedCacheIntegrationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EE339C2273BA70700B2C75E /* EssentialFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EssentialFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EE339CA273BA70700B2C75E /* EssentialFeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialFeedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -600,6 +601,7 @@
 		2EE339B8273BA70700B2C75E = {
 			isa = PBXGroup;
 			children = (
+				2ECC106C2761FAA40033EE1E /* FeedLoaderWithFallbackCompositeTests.swift */,
 				2ECC1020276161690033EE1E /* EssentialFeedTests */,
 				2ECC1009276161280033EE1E /* EssentialFeediOSTests */,
 				2ECC1006276161160033EE1E /* EssentialFeedEndToEndTests */,
