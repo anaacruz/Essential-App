@@ -49,6 +49,7 @@
 		2ECC10BE2762E0100033EE1E /* UIButton+TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECC10B52762E0100033EE1E /* UIButton+TestHelpers.swift */; };
 		2ECC10C02762E0520033EE1E /* FeedUIIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECC10BF2762E0520033EE1E /* FeedUIIntegrationTests.swift */; };
 		2ECC10C22762E2CC0033EE1E /* FeedAcceptanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECC10C12762E2CC0033EE1E /* FeedAcceptanceTests.swift */; };
+		2ECC10C42762F4FC0033EE1E /* HTTPClientStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECC10C32762F4FC0033EE1E /* HTTPClientStub.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -122,6 +123,7 @@
 		2ECC10B52762E0100033EE1E /* UIButton+TestHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIButton+TestHelpers.swift"; path = "../../../EssentialFeed/EssentialFeediOSTests/Feed UI/Helpers/UIButton+TestHelpers.swift"; sourceTree = "<group>"; };
 		2ECC10BF2762E0520033EE1E /* FeedUIIntegrationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FeedUIIntegrationTests.swift; path = "../../EssentialFeed/EssentialFeediOSTests/Feed UI/FeedUIIntegrationTests.swift"; sourceTree = "<group>"; };
 		2ECC10C12762E2CC0033EE1E /* FeedAcceptanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedAcceptanceTests.swift; sourceTree = "<group>"; };
+		2ECC10C32762F4FC0033EE1E /* HTTPClientStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClientStub.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -239,6 +241,7 @@
 				2ECC107E2762BAA80033EE1E /* XCTestCase+FeedLoader.swift */,
 				2ECC10862762BFC80033EE1E /* FeedImageDataLoaderSpy.swift */,
 				2ECC10882762C03A0033EE1E /* XCTestCase+FeedImageDataLoader.swift */,
+				2ECC10C32762F4FC0033EE1E /* HTTPClientStub.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -380,6 +383,7 @@
 				2ECC10872762BFC80033EE1E /* FeedImageDataLoaderSpy.swift in Sources */,
 				2ECC10B62762E0100033EE1E /* FeedImageCell+TestHelpers.swift in Sources */,
 				2ECC1072276202540033EE1E /* FeedImageDataLoaderWithFallbackCompositeTests.swift in Sources */,
+				2ECC10C42762F4FC0033EE1E /* HTTPClientStub.swift in Sources */,
 				2ECC106E2761FABA0033EE1E /* FeedLoaderWithFallbackCompositeTests.swift in Sources */,
 				2ECC10BD2762E0100033EE1E /* FeedViewController+TestHelpers.swift in Sources */,
 				2ECC10B82762E0100033EE1E /* UIRefreshControl+TestHelpers.swift in Sources */,
