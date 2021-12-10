@@ -51,6 +51,7 @@
 		2ECC10C22762E2CC0033EE1E /* FeedAcceptanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECC10C12762E2CC0033EE1E /* FeedAcceptanceTests.swift */; };
 		2ECC10C42762F4FC0033EE1E /* HTTPClientStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECC10C32762F4FC0033EE1E /* HTTPClientStub.swift */; };
 		2ECC10C62762F6320033EE1E /* InMemoryFeedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECC10C52762F6320033EE1E /* InMemoryFeedStore.swift */; };
+		2ECC10D4276336140033EE1E /* UIView+TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECC10D3276336140033EE1E /* UIView+TestHelpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -126,6 +127,7 @@
 		2ECC10C12762E2CC0033EE1E /* FeedAcceptanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedAcceptanceTests.swift; sourceTree = "<group>"; };
 		2ECC10C32762F4FC0033EE1E /* HTTPClientStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClientStub.swift; sourceTree = "<group>"; };
 		2ECC10C52762F6320033EE1E /* InMemoryFeedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InMemoryFeedStore.swift; sourceTree = "<group>"; };
+		2ECC10D3276336140033EE1E /* UIView+TestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+TestHelpers.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -245,6 +247,7 @@
 				2ECC10882762C03A0033EE1E /* XCTestCase+FeedImageDataLoader.swift */,
 				2ECC10C32762F4FC0033EE1E /* HTTPClientStub.swift */,
 				2ECC10C52762F6320033EE1E /* InMemoryFeedStore.swift */,
+				2ECC10D3276336140033EE1E /* UIView+TestHelpers.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -389,6 +392,7 @@
 				2ECC1072276202540033EE1E /* FeedImageDataLoaderWithFallbackCompositeTests.swift in Sources */,
 				2ECC10C42762F4FC0033EE1E /* HTTPClientStub.swift in Sources */,
 				2ECC106E2761FABA0033EE1E /* FeedLoaderWithFallbackCompositeTests.swift in Sources */,
+				2ECC10D4276336140033EE1E /* UIView+TestHelpers.swift in Sources */,
 				2ECC10BD2762E0100033EE1E /* FeedViewController+TestHelpers.swift in Sources */,
 				2ECC10B82762E0100033EE1E /* UIRefreshControl+TestHelpers.swift in Sources */,
 				2ECC10C22762E2CC0033EE1E /* FeedAcceptanceTests.swift in Sources */,
