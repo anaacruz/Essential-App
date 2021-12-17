@@ -83,6 +83,11 @@
 		2ECC10CE2762FA290033EE1E /* UITableView+HeaderSizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECC10CD2762FA290033EE1E /* UITableView+HeaderSizing.swift */; };
 		2ECC10D0276300270033EE1E /* UIViewController+Snapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECC10CF276300270033EE1E /* UIViewController+Snapshot.swift */; };
 		2ECC10D22763010C0033EE1E /* XCTestCase+Snapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECC10D12763010C0033EE1E /* XCTestCase+Snapshot.swift */; };
+		2ECC10D527633D370033EE1E /* XCTestCase+MemoryLeakTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECC103F276161690033EE1E /* XCTestCase+MemoryLeakTracking.swift */; };
+		2ECC10D627633DE70033EE1E /* XCTestCase+MemoryLeakTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECC103F276161690033EE1E /* XCTestCase+MemoryLeakTracking.swift */; };
+		2ECC10D727633DEA0033EE1E /* XCTestCase+MemoryLeakTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECC103F276161690033EE1E /* XCTestCase+MemoryLeakTracking.swift */; };
+		2ECC10D827633E0F0033EE1E /* FeedCacheTestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECC1032276161690033EE1E /* FeedCacheTestHelpers.swift */; };
+		2ECC10D927633E860033EE1E /* SharedTestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECC103E276161690033EE1E /* SharedTestHelpers.swift */; };
 		2ECEFC79274DC2A000A2EFA4 /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EE339C2273BA70700B2C75E /* EssentialFeed.framework */; };
 		2EE339CB273BA70700B2C75E /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EE339C2273BA70700B2C75E /* EssentialFeed.framework */; };
 		2EE339F8273BA80A00B2C75E /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EE339C2273BA70700B2C75E /* EssentialFeed.framework */; };
@@ -846,6 +851,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2ECC10D727633DEA0033EE1E /* XCTestCase+MemoryLeakTracking.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -853,7 +859,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2ECC10D927633E860033EE1E /* SharedTestHelpers.swift in Sources */,
 				2ECC1005276161070033EE1E /* EssentialFeedCacheIntegrationTests.swift in Sources */,
+				2ECC10D827633E0F0033EE1E /* FeedCacheTestHelpers.swift in Sources */,
+				2ECC10D627633DE70033EE1E /* XCTestCase+MemoryLeakTracking.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -937,6 +946,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2ECC1008276161160033EE1E /* EssentialFeedAPIEndToEndTests.swift in Sources */,
+				2ECC10D527633D370033EE1E /* XCTestCase+MemoryLeakTracking.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1007,10 +1017,11 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -1038,9 +1049,10 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
